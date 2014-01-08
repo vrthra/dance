@@ -1,0 +1,4 @@
+:def v (\_ -> return ":e Dance.lhs \n :load Dance.lhs")
+:def x (\_ -> return ":load Dance.lhs")
+:def u (\_ -> return ":e UnitTest.hs \n :load UnitTest.hs")
+
